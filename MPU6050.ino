@@ -1,4 +1,4 @@
-#define MPU6050 0x69
+#define MPU6050 0x68
 int16_t AcX,AcY,AcZ,Tmp,GyX,GyY,GyZ;
 static void mpu(void) {
   uint8_t buff[14];
